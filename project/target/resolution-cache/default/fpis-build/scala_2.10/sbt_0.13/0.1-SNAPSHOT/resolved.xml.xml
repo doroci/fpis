@@ -4,7 +4,7 @@
 		module="fpis-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170112170244"
+		publication="20170112174129"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
