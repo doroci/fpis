@@ -49,6 +49,7 @@ object Ch2 extends App{
   def isSorted[A](as: Array[A], ordered: (A,A) => Boolean ): Boolean = {
 
     def go(n: Int): Boolean = {
+
       if(n >= as.length-1) true
       else if(ordered(as(n), as(n+1))) false
       else go(n+1)
@@ -60,7 +61,8 @@ object Ch2 extends App{
     println(s" factorial(6), ${factorial(6)}")
     println(s" fib(6), ${fib(6)}")
     println(s" findFirst(Array('a','b','c','d', 'c'), ${findFirst(Array("'a'","'b'","'c'","'d'") ,"'c'")}")
-    println(s" isSorted, ${isSorted(ordered = (x: Int, y:Int) => x > y , as = Array(1,2,3))}")
-    println(s" isSorted, ${isSorted(ordered = (x: Int, y:Int) => x < y , as = Array(1,3,2))}")
+    println(s" isSorted, ${isSorted(ordered = (x: Int, y:Int) => x > y , as = Array(1, 3 ,5 ,7))}")
+    println(s" isSorted, ${isSorted(ordered = (x: Int, y:Int) => x < y , as = Array(7, 5, 1, 3))}")
+    println(s" isSorted, ${isSorted(ordered = (x: String, y:String) => x.length > y.length , as = Array("Scala","javascript"))}")
 }
 

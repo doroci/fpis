@@ -26,19 +26,30 @@ object Ch3 extends App{
       if(as.isEmpty) Nil
       else Cons(as.head, apply(as.tail: _*))
 
-
     val x = List (1,2,3,4,5) match {
 
       case Cons(x, Cons(2, Cons(4, _))) => x
       case Nil => 42
       case Cons(x, Cons(y, Cons(3, Cons(4, _ )))) => x + y  // 1 + 2
       case Cons(h, t) => h + sum(t)
-      case _ => 101
+      case _ => 10
 
     }
 
+    def tail[A](l: List[A]): List[A] =
+      l match {
+        case Nil => sys.error("tail of empty list")
+        case Cons(_, t) => t
+      }
+
   }
 
-  println(List.x)
+  println(s" List.x, ${List.x}")
+  println(s" List.tail(List(1,3,5)), ${List.tail(List(1,3,5))}")
+  println(s" List.tail(List((1,2),(2,3))), ${List.tail(List((1,2),(2,3)))}")
+  println(s" List.tail(List(1)), ${List.tail(List(1))}")
 
 }
+
+
+
