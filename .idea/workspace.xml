@@ -6,18 +6,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/.idea/uiDesigner.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/src/com/company/DesignPattern/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/src/com/company/DesignPattern/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/src/com/company/DesignPattern/Invoker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/src/com/company/DesignPattern/Receiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/src/com/company/DesignPattern/concreteCommand/Open.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/src/com/company/DesignPattern/concreteCommand/Save.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OopAndFp/src/com/company/DesignPattern/concreteCommand/close.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bigBio/src/main/java/knn/Knn.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bigBio/src/main/java/knn/util/Util.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bigBio/src/main/java/movieRecommand_bak/MovieRecommendations.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bigBio/src/main/java/movieRecommand_bak/MovieRecommendationsWithJoin.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bigBio/src/main/python/chap01/SparkSecondarySort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala-2.12/ch4/Option.scala" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spirngboot_exam/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_4_1_RELEASE.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spirngboot_exam/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_3_RELEASE.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spirngboot_exam/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_3_RELEASE.xml" />
@@ -44,10 +38,129 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spirngboot_exam/src/main/resources/templates/login.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spirngboot_exam/src/main/resources/templates/userList.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spirngboot_exam/src/main/test/interviews/ch4/Sorting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_databricks_spark_csv_2_11_1_5_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_univocity_univocity_parsers_1_5_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_commons_commons_csv_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__aopalliance_aopalliance_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__asm_asm_3_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_clearspring_analytics_stream_2_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_esotericsoftware_kryo_kryo_2_21_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_esotericsoftware_minlog_minlog_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_esotericsoftware_reflectasm_reflectasm_1_07_shaded_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_google_code_findbugs_jsr305_1_3_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_google_guava_guava_14_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_google_inject_guice_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_google_protobuf_protobuf_java_2_5_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_ning_compress_lzf_1_0_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_sun_jersey_contribs_jersey_guice_1_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_sun_jersey_jersey_core_1_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_sun_jersey_jersey_json_1_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_sun_jersey_jersey_server_1_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_sun_jersey_jersey_test_framework_jersey_test_framework_grizzly2_1_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_sun_xml_bind_jaxb_impl_2_2_3_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_twitter_chill_2_11_0_5_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_twitter_chill_java_0_5_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_typesafe_akka_akka_actor_2_11_2_3_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_typesafe_akka_akka_remote_2_11_2_3_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_typesafe_akka_akka_slf4j_2_11_2_3_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__com_typesafe_config_1_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_beanutils_commons_beanutils_1_7_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_cli_commons_cli_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_codec_commons_codec_1_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_collections_commons_collections_3_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_configuration_commons_configuration_1_6_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_digester_commons_digester_1_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_httpclient_commons_httpclient_3_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_io_commons_io_2_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_lang_commons_lang_2_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__commons_net_commons_net_2_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__io_netty_netty_3_8_0_Final_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__io_netty_netty_all_4_0_29_Final_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__javax_activation_activation_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__javax_inject_javax_inject_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__javax_xml_bind_jaxb_api_2_2_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__jline_jline_0_9_94_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__log4j_log4j_1_2_17_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__net_java_dev_jets3t_jets3t_0_7_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__net_jpountz_lz4_lz4_1_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__net_razorvine_pyrolite_4_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__net_sf_py4j_py4j_0_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_avro_avro_1_7_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_avro_avro_ipc_1_7_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_commons_commons_compress_1_4_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_commons_commons_lang3_3_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_commons_commons_math3_3_4_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_commons_commons_math_2_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_curator_curator_client_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_curator_curator_framework_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_curator_curator_recipes_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_annotations_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_auth_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_client_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_hdfs_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_api_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_client_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_hadoop_hadoop_yarn_server_common_2_2_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_ivy_ivy_2_4_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_mesos_mesos_0_21_1_shaded_protobuf_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_spark_spark_core_2_11_1_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_spark_spark_launcher_2_11_1_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_spark_spark_network_common_2_11_1_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_spark_spark_network_shuffle_2_11_1_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_spark_spark_unsafe_2_11_1_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_apache_zookeeper_zookeeper_3_4_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_codehaus_jackson_jackson_jaxrs_1_8_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_codehaus_jackson_jackson_xc_1_8_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_codehaus_jettison_jettison_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_json4s_json4s_ast_2_11_3_2_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_json4s_json4s_core_2_11_3_2_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_json4s_json4s_jackson_2_11_3_2_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_objenesis_objenesis_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_scala_lang_scala_compiler_2_11_0_jar.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_scala_lang_scalap_2_11_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_slf4j_jcl_over_slf4j_1_7_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_slf4j_jul_to_slf4j_1_7_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_slf4j_slf4j_log4j12_1_7_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_spark_project_spark_unused_1_0_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_tachyonproject_tachyon_client_0_8_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_hdfs_0_8_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_local_0_8_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_tachyonproject_tachyon_underfs_s3_0_8_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_tukaani_xz_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_uncommons_maths_uncommons_maths_1_2_2a_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__org_xerial_snappy_snappy_java_1_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__oro_oro_2_0_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__stax_stax_api_1_0_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/libraries/SBT__xmlenc_xmlenc_0_52_jar.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/modules/startspark-build.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/.idea/modules/startspark.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../startSpark/src/main/scala/spark/FileFormat.scala" />
@@ -58,13 +171,10 @@
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/find.xml" />
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/lombok.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Scala-std-lib" afterPath="$PROJECT_DIR$/../Scala-std-lib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch2/Ch2$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch2/Ch2$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch3/Ch3$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch3/Ch3$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch3/Ch3$List$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch3/Ch3$List$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bigBio/src/main/java/movieRecommand/MovieRecommendationsWithJoin.java" afterPath="$PROJECT_DIR$/../bigBio/src/main/java/movieRecommand/MovieRecommendationsWithJoin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.12/ch2/Ch2.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.12/ch2/Ch2.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.12/ch3/Ch3.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.12/ch3/Ch3.scala" />
     </list>
     <ignored path="fpis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,18 +216,81 @@
       <file leaf-file-name="Ch2.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch2/Ch2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="975">
               <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ch3.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ch3.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch3/Ch3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="285">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Option.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/Option.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="346" column="12" selection-start-line="346" selection-start-column="12" selection-end-line="346" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Option.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch4/Option.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Predef.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/Predef.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/package.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -129,6 +302,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Package Object" />
+        <option value="Scala Worksheet" />
       </list>
     </option>
   </component>
@@ -147,6 +321,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala-2.12/ch2/Ch2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.12/ch3/Ch3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.12/ch4/Ch4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.12/ch4/Either.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.12/ch4/ㅁ.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.12/ch4/Option.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.12/ch4/Option.scala" />
       </list>
     </option>
   </component>
@@ -180,8 +359,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,7 +416,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch3" />
+              <option name="myItemId" value="ch4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,10 +441,6 @@
               <option name="myItemId" value="scala-2.12" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -286,7 +462,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +479,7 @@
       <recent name="$PROJECT_DIR$/src/test/scala-2.12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ch3">
+  <component name="RunManager" selected="Application.None">
     <configuration default="false" name="Ch2" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -333,6 +508,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ch3.Ch3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="fpis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="None" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ch4.None" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -637,14 +832,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Ch2" />
       <item index="1" class="java.lang.String" itemvalue="Application.Ch3" />
+      <item index="2" class="java.lang.String" itemvalue="Application.None" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Ch3" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Ch2" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.None" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Ch3" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Ch2" />
       </list>
     </recent_temporary>
   </component>
@@ -716,23 +913,23 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3241491" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1292407" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31663975" sideWeight="0.5323102" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31604537" sideWeight="0.5323102" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29659644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31442463" sideWeight="0.4676898" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31340873" sideWeight="0.4676898" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20597738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2706645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -745,7 +942,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31663975" sideWeight="0.5323102" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31604537" sideWeight="0.5323102" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -753,18 +950,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2706645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3241491" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1292407" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07617504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31502423" sideWeight="0.4676898" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29659644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31340873" sideWeight="0.4676898" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.273021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -782,7 +979,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -791,6 +988,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch2/Ch2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch3/Ch3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch2/Ch2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -844,10 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#557#631#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,11 +1071,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch4/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch4/Either.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch4/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch4/Option.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -875,16 +1116,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch2/Ch2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="975">
           <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="346" column="12" selection-start-line="346" selection-start-column="12" selection-end-line="346" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch3/Ch3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="285">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/ch4/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
           <folding />
         </state>
       </provider>
