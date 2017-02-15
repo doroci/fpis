@@ -11,6 +11,7 @@ val result = multiply(1.2)
 [출력결과] result: BigDecimal = 1.44
 
 ```
+<br>
 
 ### non-strictness - 비 엄격성
 * argument 중 하나 이상을 evaluate 하지 않는다.
@@ -60,11 +61,12 @@ lazy(true, {println("lazy"); 10+10 })
                Int = 40
 
 ```
+<br>
 
 ## Lazy vs non-strict - 용어 구분
 * https://wiki.haskell.org/Lazy_vs._non-strict
 * https://en.wikipedia.org/wiki/Evaluation_strategy
-
+<br>
 
 ##  Memoizing streams and avoiding recomputation - 스트림의 메모화를 통한 재계산 피하기
 ```
@@ -89,7 +91,7 @@ def apply[A](as: A*): Stream[A] =
 결과적으로, as.head와 apply(as.tail: _*) 표현식은 Stream을 강제할 때까지는 평가되지 않는다.
 
 ```
-
+<br>
 
 ## separation of concerns - 관심사의 분리
 * 계산의 서술(description)을 그 계산의 실제 실행과 분리하는 것을 권장한다.
@@ -98,6 +100,7 @@ def apply[A](as: A*): Stream[A] =
 또한, Option은 오류가 발행했다는 사실을 담고 있을 뿐, 오류에 대해 무엇을 수행할 것인가는 그와는 분리된 관심사이다.
 즉, 나태성을 통해서 표현식의 서술을 그 표현식의 평가와 분리 할 수 있다.
 ```
+<br>
 
 * incremental - 점진성
 ```
@@ -105,6 +108,7 @@ Stream의 요소드을 다른 어떤 계산이 참조하는 시점이 되어서�
 그리고 그때가 되면 구현은 요청된 요소들을 생성하는데 필요한 작업만 수행한다.
 즉, 중간결과를 인스턴스화 하지 않고도 함수들을 연이어 호출이 가능하다.
 ```
+<br>
 
 
 ## INFINITE STREAMS AND CORECURSION - 무한 스트림과 공재귀
@@ -124,8 +128,9 @@ Stream의 요소드을 다른 어떤 계산이 참조하는 시점이 되어서�
 
     위의 1,2,3의 결과는 같으나 평가의 과정은 다른 경우다.
 ```
+<br>
 
-* ![stream](/src/main/scala-2.12/ch5/image/stream.png)
+![stream](/src/main/scala-2.12/ch5/image/stream.png)
 
 ## summary
 ```
