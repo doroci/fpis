@@ -47,22 +47,23 @@ object Option extends App{
     else Some(xs.sum / xs.length)
 
   // exercise 4.2
+  // (variance)분산이란? - https://en.wikipedia.org/wiki/Variance#Definition
   def variance(xs: Seq[Double]): Option[Double] =
     mean(xs).flatMap( m => mean( xs.map(x => math.pow(x - m, 2)) ))
 
   // exercise 4.3
   def map2[A,B,C](a: Option[A], b: Option[B])(f: (A, B) => C): Option[C] =
-    a.flatMap(aa => b map (bb => f(aa, bb)))
+    a.flatMap(aa => b.map(bb => f(aa, bb)))
 
   // exercise 4.4
   def sequence[A](a: List[Option[A]]): Option[List[A]] =
     a match {
       case Nil => Some(Nil)
-      case h :: t => h flatMap (hh => sequence(t) map (hh :: _))
+      case h :: t => h.flatMap(hh => sequence(t) map (hh :: _))
     }
 
   // exercise 4.4.1
-  def sequence_1[A](a: List[Option[A]]): Option[List[A]] =
+  def sequence_foldRight[A](a: List[Option[A]]): Option[List[A]] =
     a.foldRight[Option[List[A]]](Some(Nil))((x,y) => map2(x,y)(_ :: _))
 
 

@@ -29,4 +29,26 @@ object StreamTest extends App{
   println(s"range has $range")
   println(s"stream has $stream")
 
+
+
+  import scala.math.BigInt
+  val fibs: Stream[BigInt] = BigInt(0) #:: BigInt(1) #:: fibs.zip(fibs.tail).map { n => n._1 + n._2 }
+
+  println("------------------------------------------")
+  fibs take 5 foreach println
+  println("------------------------------------------")
+
+  val fibs2: Stream[BigInt] = BigInt(0) #:: BigInt(1) #:: fibs2.zip(
+    fibs2.tail).map(n => {
+    println("Adding %d and %d".format(n._1, n._2))
+    n._1 + n._2
+  })
+
+  println("------------------------------------------")
+  fibs2 take 5 foreach println
+  println("------------------------------------------")
+  fibs2 take 6 foreach println
+  println("------------------------------------------")
+
+
 }
